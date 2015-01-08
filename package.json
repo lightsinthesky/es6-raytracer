@@ -1,0 +1,22 @@
+{
+  "name": "raytracer",
+  "version": "1.0.0",
+  "description": "a fun hobby raytracer in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch"
+  },
+  "author": "Andrew Wilson <andrew@lightsinthesky.io> (http://lightsinthesky.io/)",
+  "license": "MIT",
+  "devDependencies": {
+    "6to5": "^2.0.4",
+    "6to5-loader": "^1.0.0",
+    "webpack": "^1.4.13",
+    "webpack-dev-server": "^1.6.6",
+    "worker-loader": "^0.5.7"
+  },
+  "dependencies": {
+    "jquery": "^2.1.3"
+  }
+}
